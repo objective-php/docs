@@ -2,16 +2,16 @@
    Added: <date>
    Author: Name <email>
 
-=================
+==================================
 Getting started with Objective PHP
-=================
+==================================
 
 Pre-requisites
 """"""""""""""
 
 The most important pre-requisite needed to use Objective PHP is PHP7.
 
-If you don't have it installed yet, please take a lookt at `Official PHP website <http://www.php.net>`_ and read instruction about PHP7 installation on your development machine.
+If you don't have it installed yet, please take a look at `Official PHP website <http://www.php.net>`_ and read instruction about PHP7 installation on your development machine.
 
 
 Installation
@@ -32,7 +32,7 @@ Keep adding methods like this for everything you want to document. It is recomme
 
 
 Starting a server
-"""""""""""""""""""""""
+"""""""""""""""""
 
 To quickly run and access the starter application, you can use the internal PHP HTTP server:
 
@@ -41,4 +41,4 @@ To quickly run and access the starter application, you can use the internal PHP 
     cd op-quick-start
     php -S localhost:8080 -t public
 
-That's it! If eveerything went fine, you should be able to point a browser to http://localhost:8080 and access the starter kit home page.
+That's it! If everything went fine, you should be able to point a browser to http://localhost:8080 and access the starter kit home page.

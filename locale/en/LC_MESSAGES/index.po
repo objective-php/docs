@@ -15,22 +15,6 @@ msgstr ""
 msgid "Contents:"
 msgstr ""
 
-#: ../../index.rst:22
-msgid "Indices and tables"
-msgstr ""
-
-#: ../../index.rst:24
-msgid ":ref:`genindex`"
-msgstr ""
-
-#: ../../index.rst:25
-msgid ":ref:`modindex`"
-msgstr ""
-
-#: ../../index.rst:26
-msgid ":ref:`search`"
-msgstr ""
-
 #: ../../index.rst:9
 msgid ":hidden:`maintoc`"
 msgstr ""
@@ -38,6 +22,18 @@ msgstr ""
 #: ../../index.rst:6
 msgid "Welcome to Objective PHP Framework and Components documentation"
 msgstr ""
+
+#~ msgid "Indices and tables"
+#~ msgstr ""
+
+#~ msgid ":ref:`genindex`"
+#~ msgstr ""
+
+#~ msgid ":ref:`modindex`"
+#~ msgstr ""
+
+#~ msgid ":ref:`search`"
+#~ msgstr ""
 
 #~ msgid "Welcome to SitePoint's RTDSphinx-l10n documentation!"
 #~ msgstr ""

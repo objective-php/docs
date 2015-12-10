@@ -11,61 +11,81 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../01-getting-started.rst:27
-msgid "Usage::"
+#: ../../01-getting-started.rst:11
+msgid "Getting started with Objective PHP"
+msgstr "Démarrer avec Objective PHP"
+
+#: ../../01-getting-started.rst:22
+msgid "Installation"
 msgstr ""
 
-#: ../../01-getting-started.rst:19
-msgid ":hidden:`anotherMethod`"
-msgstr ""
+#: ../../01-getting-started.rst:14
+msgid "Pre-requisites"
+msgstr "Pré-requis"
 
-#: ../../01-getting-started.rst:23
+#: ../../01-getting-started.rst:16
+msgid "The most important pre-requisite needed to use Objective PHP is PHP7."
+msgstr "Le pré-requis principal nécessaire pour utiliser Objective PHP est PHP7"
+
+#: ../../01-getting-started.rst:24
 msgid ""
-"Notice that this method is not static, and thus lacks the \"static\" prefix "
-"in its title. For more example of directives you can use with PHPDomain, see"
-" `here <http://mark-story.com/posts/view/sphinx-phpdomain-released>`_."
+"The easiest way to start a project with Objective PHP is to use composer's "
+"\"create-project\" feature and get the Objective PHP Starter Kit:"
 msgstr ""
+"La façon la plus simple de démarrer un projet avec Objective PHP est "
+"d'utiliser la fonctionnalité \"create-project\" de composer et d'obtenir le "
+"starter kit d'Objective PHP :"
 
-#: ../../01-getting-started.rst:25
-msgid "null or string"
+#: ../../01-getting-started.rst:26
+msgid ""
+"The following command assumes :code:composer is available in your current "
+"PATH:"
 msgstr ""
+"La commande suivante présume que :code:composer est présent dans votre PATH "
+"actuel"
 
 #: ../../01-getting-started.rst:32
+msgid ""
+"Where *op-quick-start* should be replaced with anything matching your actual"
+" project name."
+msgstr ""
+"*op-quick-start* devrait être remplacé par n'importe quel identifiant "
+"correspondant à votre projet réel."
+
+#: ../../01-getting-started.rst:39
+msgid "Starting a server"
+msgstr "Démarrer un serveur"
+
+#: ../../01-getting-started.rst:41
+msgid ""
+"To quickly run and access the starter application, you can use the internal "
+"PHP HTTP server:"
+msgstr ""
+"Pour lancer rapidement l'application starter, vous pouvez utiliser le "
+"serveur web embarqué de PHP:"
+
+#: ../../01-getting-started.rst:18
+msgid ""
+"If you don't have it installed yet, please take a look at `Official PHP "
+"website <http://www.php.net>`_ and read instruction about PHP7 installation "
+"on your development machine."
+msgstr ""
+
+#: ../../01-getting-started.rst:35
 msgid ""
 "Keep adding methods like this for everything you want to document. It is "
 "recommended to only document public methods like this. Private and protected"
 " methods should stay isolated and only documented in the source code."
 msgstr ""
+"Si vous ne l'avez pas encore installé, rendez vous sur le `site officiel de "
+"PHP<http://www.php.net>`_ et consultez les instructions relatives à "
+"l'installation de PHP7 sur votre machine de développement"
 
-#: ../../01-getting-started.rst:11
-msgid "Getting started with Objective PHP"
+
+#: ../../01-getting-started.rst:48
+msgid ""
+"That's it! If everything went fine, you should be able to point a browser to"
+" http://localhost:8080 and access the starter kit home page."
 msgstr ""
-
-#: ../../01-getting-started.rst:15
-msgid "Installation"
-msgstr ""
-
-#~ msgid "The Awesome Abstract Class"
-#~ msgstr ""
-
-#~ msgid "The awesome class does awesome things. Instantiate like so::"
-#~ msgstr ""
-
-#~ msgid ":hidden:`someStaticMethod`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This method is static. See the ``.rst`` source file for how this is defined."
-#~ " Also notice that this method appears in the TOC, there is no section "
-#~ "heading in the actual body of the document. This is because of a custom "
-#~ "``hidden`` role which hides the heading in the body, but lets Sphinx render "
-#~ "it in the TOC. If you just put a heading there without the \"hidden\" part, "
-#~ "you'd get the same result, except that the heading would show in the content"
-#~ " as well, thus duplicating the function name."
-#~ msgstr ""
-
-#~ msgid "A parameter needed by the method"
-#~ msgstr ""
-
-#~ msgid "void, or throws an \\\\InvalidArgumentException if the param is invalid"
-#~ msgstr ""
+"Et voilà ! Si tout s'est bien passé, vous devriez pouvoir consulter la page "
+"d'accueil du starter kit en vous rendant sur http://localhost:8080."

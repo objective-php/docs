@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Getting started with Objective PHP &mdash; documentation Objective PHP Documentation 1</title>
+  <title>Démarrer avec Objective PHP &mdash; documentation Objective PHP Documentation 1</title>
   
 
   
@@ -77,10 +77,10 @@
 <li class="toctree-l2"><a class="reference internal" href="introduction.html#how">How?</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Getting started with Objective PHP</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#pre-requisites">Pre-requisites</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Démarrer avec Objective PHP</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pre-requisites">Pré-requis</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#starting-a-server">Starting a server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#starting-a-server">Démarrer un serveur</a></li>
 </ul>
 </li>
 </ul>
@@ -107,7 +107,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Getting started with Objective PHP</li>
+    <li>Démarrer avec Objective PHP</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -121,30 +121,30 @@
           <div role="main" class="document">
             
   <div class="section" id="getting-started-with-objective-php">
-<h1>Getting started with Objective PHP<a class="headerlink" href="#getting-started-with-objective-php" title="Lien permanent vers ce titre">¶</a></h1>
+<h1>Démarrer avec Objective PHP<a class="headerlink" href="#getting-started-with-objective-php" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="section" id="pre-requisites">
-<h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Lien permanent vers ce titre">¶</a></h2>
-<p>The most important pre-requisite needed to use Objective PHP is PHP7.</p>
-<p>If you don&#8217;t have it installed yet, please take a lookt at <a class="reference external" href="http://www.php.net">Official PHP website</a> and read instruction about PHP7 installation on your development machine.</p>
+<h2>Pré-requis<a class="headerlink" href="#pre-requisites" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le pré-requis principal nécessaire pour utiliser Objective PHP est PHP7</p>
+<p>If you don&#8217;t have it installed yet, please take a look at <a class="reference external" href="http://www.php.net">Official PHP website</a> and read instruction about PHP7 installation on your development machine.</p>
 </div>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Lien permanent vers ce titre">¶</a></h2>
-<p>The easiest way to start a project with Objective PHP is to use composer&#8217;s &#8220;create-project&#8221; feature and get the Objective PHP Starter Kit:</p>
-<p>The following command assumes :code:composer is available in your current PATH:</p>
+<p>La façon la plus simple de démarrer un projet avec Objective PHP est d&#8217;utiliser la fonctionnalité &#8220;create-project&#8221; de composer et d&#8217;obtenir le starter kit d&#8217;Objective PHP :</p>
+<p>La commande suivante présume que :code:composer est présent dans votre PATH actuel</p>
 <div class="highlight-php"><div class="highlight"><pre><span class="nx">composer</span> <span class="nx">create</span><span class="o">-</span><span class="nx">project</span> <span class="nx">objective</span><span class="o">-</span><span class="nx">php</span><span class="o">/</span><span class="nx">starter</span><span class="o">-</span><span class="nx">kit</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
 </pre></div>
 </div>
-<p>Where <em>op-quick-start</em> should be replaced with anything matching your actual project name.</p>
-<p>Keep adding methods like this for everything you want to document. It is recommended to only document public methods like this. Private and protected methods should stay isolated and only documented in the source code.</p>
+<p><em>op-quick-start</em> devrait être remplacé par n&#8217;importe quel identifiant correspondant à votre projet réel.</p>
+<p>Si vous ne l&#8217;avez pas encore installé, rendez vous sur le <a href="#id1"><span class="problematic" id="id2">`site officiel de PHP&lt;http://www.php.net&gt;`_</span></a> et consultez les instructions relatives à l&#8217;installation de PHP7 sur votre machine de développement</p>
 </div>
 <div class="section" id="starting-a-server">
-<h2>Starting a server<a class="headerlink" href="#starting-a-server" title="Lien permanent vers ce titre">¶</a></h2>
-<p>To quickly run and access the starter application, you can use the internal PHP HTTP server:</p>
+<h2>Démarrer un serveur<a class="headerlink" href="#starting-a-server" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Pour lancer rapidement l&#8217;application starter, vous pouvez utiliser le serveur web embarqué de PHP:</p>
 <div class="highlight-php"><div class="highlight"><pre><span class="nx">cd</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
 <span class="nx">php</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">localhost</span><span class="o">:</span><span class="mi">8080</span> <span class="o">-</span><span class="nx">t</span> <span class="k">public</span>
 </pre></div>
 </div>
-<p>That&#8217;s it! If eveerything went fine, you should be able to point a browser to <a class="reference external" href="http://localhost:8080">http://localhost:8080</a> and access the starter kit home page.</p>
+<p>Et voilà ! Si tout s&#8217;est bien passé, vous devriez pouvoir consulter la page d&#8217;accueil du starter kit en vous rendant sur <a class="reference external" href="http://localhost:8080">http://localhost:8080</a>.</p>
 </div>
 </div>
 

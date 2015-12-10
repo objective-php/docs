@@ -2,12 +2,12 @@
    Added: 2015-12-10
    Author: Gauthier Delamarre <gauthier@objective-php.org>
 
-========
+============
 Introduction
-========
+============
 
 What?
-========
+=====
 
 Objective PHP is a lightweight framework written in PHP7 with OOP in mind. This is why it's called that - there is other reason, except a pun on Objective C of course :)
 
@@ -19,7 +19,7 @@ For higher level components, like Forms generators or ORMs for instance, we thou
 
 
 Why?
-========
+====
 
 You may ask yourself: why did those guys bothered with another PHP framework? The answer is quite simple: we're bored with spending more times understanding and masterizing the framework itself than with working on the actual applications features.
 
@@ -27,11 +27,11 @@ You may ask yourself: why did those guys bothered with another PHP framework? Th
 
 On top of that, we thought taht working on a new framework would also be an opportunity to consider performances in a different way. Most frameworks rely on cache to offer decent performances. Well, cache can help. A bit. But once you cached the poor performing components, what more can you do? Nothing. 
 
- **performance** is the second major concern of Objective PHP
+**performance** is the second major concern of Objective PHP
 
 
 How?
-=========
+====
 
 The key idea to help developers getting efficient and comfortable with Objective PHP is to reduce as much as possible the number of different mechanism to achieve essential tasks the framework has to handle. 
 

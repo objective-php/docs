@@ -11,26 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../01-getting-started.rst:27
-msgid "Usage::"
-msgstr ""
-
-#: ../../01-getting-started.rst:19
-msgid ":hidden:`anotherMethod`"
-msgstr ""
-
-#: ../../01-getting-started.rst:23
-msgid ""
-"Notice that this method is not static, and thus lacks the \"static\" prefix "
-"in its title. For more example of directives you can use with PHPDomain, see"
-" `here <http://mark-story.com/posts/view/sphinx-phpdomain-released>`_."
-msgstr ""
-
-#: ../../01-getting-started.rst:25
-msgid "null or string"
-msgstr ""
-
-#: ../../01-getting-started.rst:32
+#: ../../01-getting-started.rst:35
 msgid ""
 "Keep adding methods like this for everything you want to document. It is "
 "recommended to only document public methods like this. Private and protected"
@@ -41,9 +22,73 @@ msgstr ""
 msgid "Getting started with Objective PHP"
 msgstr ""
 
-#: ../../01-getting-started.rst:15
+#: ../../01-getting-started.rst:22
 msgid "Installation"
 msgstr ""
+
+#: ../../01-getting-started.rst:14
+msgid "Pre-requisites"
+msgstr ""
+
+#: ../../01-getting-started.rst:16
+msgid "The most important pre-requisite needed to use Objective PHP is PHP7."
+msgstr ""
+
+#: ../../01-getting-started.rst:18
+msgid ""
+"If you don't have it installed yet, please take a look at `Official PHP "
+"website <http://www.php.net>`_ and read instruction about PHP7 installation "
+"on your development machine."
+msgstr ""
+
+#: ../../01-getting-started.rst:24
+msgid ""
+"The easiest way to start a project with Objective PHP is to use composer's "
+"\"create-project\" feature and get the Objective PHP Starter Kit:"
+msgstr ""
+
+#: ../../01-getting-started.rst:26
+msgid ""
+"The following command assumes :code:composer is available in your current "
+"PATH:"
+msgstr ""
+
+#: ../../01-getting-started.rst:32
+msgid ""
+"Where *op-quick-start* should be replaced with anything matching your actual"
+" project name."
+msgstr ""
+
+#: ../../01-getting-started.rst:39
+msgid "Starting a server"
+msgstr ""
+
+#: ../../01-getting-started.rst:41
+msgid ""
+"To quickly run and access the starter application, you can use the internal "
+"PHP HTTP server:"
+msgstr ""
+
+#: ../../01-getting-started.rst:48
+msgid ""
+"That's it! If everything went fine, you should be able to point a browser to"
+" http://localhost:8080 and access the starter kit home page."
+msgstr ""
+
+#~ msgid "Usage::"
+#~ msgstr ""
+
+#~ msgid ":hidden:`anotherMethod`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Notice that this method is not static, and thus lacks the \"static\" prefix "
+#~ "in its title. For more example of directives you can use with PHPDomain, see"
+#~ " `here <http://mark-story.com/posts/view/sphinx-phpdomain-released>`_."
+#~ msgstr ""
+
+#~ msgid "null or string"
+#~ msgstr ""
 
 #~ msgid "The Awesome Abstract Class"
 #~ msgstr ""
