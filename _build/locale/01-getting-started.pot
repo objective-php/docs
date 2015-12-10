@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Objective PHP Team
+# This file is distributed under the same license as the Objective PHP Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Objective PHP Documentation 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-10 16:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../01-getting-started.rst:11
+msgid "Getting started with Objective PHP"
+msgstr ""
+
+#: ../../01-getting-started.rst:15
+msgid "Installation"
+msgstr ""
+
+#: ../../01-getting-started.rst:19
+msgid ":hidden:`anotherMethod`"
+msgstr ""
+
+#: ../../01-getting-started.rst:23
+msgid "Notice that this method is not static, and thus lacks the \"static\" prefix in its title. For more example of directives you can use with PHPDomain, see `here <http://mark-story.com/posts/view/sphinx-phpdomain-released>`_."
+msgstr ""
+
+#: ../../01-getting-started.rst:25
+msgid "null or string"
+msgstr ""
+
+#: ../../01-getting-started.rst:27
+msgid "Usage::"
+msgstr ""
+
+#: ../../01-getting-started.rst:32
+msgid "Keep adding methods like this for everything you want to document. It is recommended to only document public methods like this. Private and protected methods should stay isolated and only documented in the source code."
+msgstr ""
+

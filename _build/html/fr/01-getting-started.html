@@ -1,0 +1,216 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Getting started with Objective PHP &mdash; documentation Objective PHP Documentation 1</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/local_build.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="documentation Objective PHP Documentation 1" href="index.html"/>
+        <link rel="prev" title="Introduction" href="introduction.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> Objective PHP Documentation
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#what">What?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#why">Why?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#how">How?</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Getting started with Objective PHP</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pre-requisites">Pre-requisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#starting-a-server">Starting a server</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Objective PHP Documentation</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Getting started with Objective PHP</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/01-getting-started.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="getting-started-with-objective-php">
+<h1>Getting started with Objective PHP<a class="headerlink" href="#getting-started-with-objective-php" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="pre-requisites">
+<h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Lien permanent vers ce titre">¶</a></h2>
+<p>The most important pre-requisite needed to use Objective PHP is PHP7.</p>
+<p>If you don&#8217;t have it installed yet, please take a lookt at <a class="reference external" href="http://www.php.net">Official PHP website</a> and read instruction about PHP7 installation on your development machine.</p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Lien permanent vers ce titre">¶</a></h2>
+<p>The easiest way to start a project with Objective PHP is to use composer&#8217;s &#8220;create-project&#8221; feature and get the Objective PHP Starter Kit:</p>
+<p>The following command assumes :code:composer is available in your current PATH:</p>
+<div class="highlight-php"><div class="highlight"><pre><span class="nx">composer</span> <span class="nx">create</span><span class="o">-</span><span class="nx">project</span> <span class="nx">objective</span><span class="o">-</span><span class="nx">php</span><span class="o">/</span><span class="nx">starter</span><span class="o">-</span><span class="nx">kit</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
+</pre></div>
+</div>
+<p>Where <em>op-quick-start</em> should be replaced with anything matching your actual project name.</p>
+<p>Keep adding methods like this for everything you want to document. It is recommended to only document public methods like this. Private and protected methods should stay isolated and only documented in the source code.</p>
+</div>
+<div class="section" id="starting-a-server">
+<h2>Starting a server<a class="headerlink" href="#starting-a-server" title="Lien permanent vers ce titre">¶</a></h2>
+<p>To quickly run and access the starter application, you can use the internal PHP HTTP server:</p>
+<div class="highlight-php"><div class="highlight"><pre><span class="nx">cd</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
+<span class="nx">php</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">localhost</span><span class="o">:</span><span class="mi">8080</span> <span class="o">-</span><span class="nx">t</span> <span class="k">public</span>
+</pre></div>
+</div>
+<p>That&#8217;s it! If eveerything went fine, you should be able to point a browser to <a class="reference external" href="http://localhost:8080">http://localhost:8080</a> and access the starter kit home page.</p>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="introduction.html" class="btn btn-neutral" title="Introduction" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Objective PHP Team.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
