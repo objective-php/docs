@@ -25,8 +25,7 @@ You may ask yourself: why did those guys bothered with another PHP framework? Th
 
 **productivity** is the main target of Objective PHP
 
-On top of that, we thought that working on a new framework would also be an opportunity to consider performances in a
- different way. Most frameworks rely on cache to offer decent performances. Well, cache can help. A bit. But once you cached the poor performing components, what more can you do? Nothing.
+On top of that, we thought that working on a new framework would also be an opportunity to consider performances in a different way. Most frameworks rely on cache to offer decent performances. Well, cache can help. A bit. But once you cached the poor performing components, what more can you do? Nothing.
 
 **performance** is the second major concern of Objective PHP
 
