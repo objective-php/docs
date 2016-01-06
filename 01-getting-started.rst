@@ -19,7 +19,7 @@ Installation
 
 The easiest way to start a project with Objective PHP is to use composer's "create-project" feature and get the Objective PHP Starter Kit:
 
-The following command assumes :code:composer is available in your current PATH:
+The following command assumes composer is available in your current PATH:
 
 :: 
 
