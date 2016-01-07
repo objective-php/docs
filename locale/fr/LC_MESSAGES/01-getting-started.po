@@ -25,7 +25,18 @@ msgstr "Pré-requis"
 
 #: ../../01-getting-started.rst:16
 msgid "The most important pre-requisite needed to use Objective PHP is PHP7."
-msgstr "Le pré-requis principal nécessaire pour utiliser Objective PHP est PHP7"
+msgstr ""
+"Le pré-requis principal nécessaire pour utiliser Objective PHP est PHP7"
+
+#: ../../01-getting-started.rst:18
+msgid ""
+"If you don't have it installed yet, please take a look at `Official PHP "
+"website <http://www.php.net>`_ and read instruction about PHP7 installation "
+"on your development machine."
+msgstr ""
+"Si vous ne l'avez pas encore installé, consultez le `site officiel de PHP  "
+"<http://www.php.net>`_ où vous trouverez les instructions nécessaires  à "
+"l'installation de PHP7 sur votre machine de dévelopmment."
 
 #: ../../01-getting-started.rst:24
 msgid ""
@@ -35,14 +46,6 @@ msgstr ""
 "La façon la plus simple de démarrer un projet avec Objective PHP est "
 "d'utiliser la fonctionnalité \"create-project\" de composer et d'obtenir le "
 "starter kit d'Objective PHP :"
-
-#: ../../01-getting-started.rst:26
-msgid ""
-"The following command assumes :code:composer is available in your current "
-"PATH:"
-msgstr ""
-"La commande suivante présume que :code:composer est présent dans votre PATH "
-"actuel"
 
 #: ../../01-getting-started.rst:32
 msgid ""
@@ -81,7 +84,6 @@ msgstr ""
 "PHP<http://www.php.net>`_ et consultez les instructions relatives à "
 "l'installation de PHP7 sur votre machine de développement"
 
-
 #: ../../01-getting-started.rst:48
 msgid ""
 "That's it! If everything went fine, you should be able to point a browser to"
@@ -89,3 +91,15 @@ msgid ""
 msgstr ""
 "Et voilà ! Si tout s'est bien passé, vous devriez pouvoir consulter la page "
 "d'accueil du starter kit en vous rendant sur http://localhost:8080."
+
+#: ../../01-getting-started.rst:26
+msgid ""
+"The following command assumes composer is available in your current PATH:"
+msgstr ""
+
+#~ msgid ""
+#~ "The following command assumes :code:composer is available in your current "
+#~ "PATH:"
+#~ msgstr ""
+#~ "La commande suivante présume que :code:composer est présent dans votre PATH "
+#~ "actuel"

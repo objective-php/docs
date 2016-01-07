@@ -73,9 +73,9 @@
           
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="">Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#what">What?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#why">Why?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#how">How?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what">Quoi ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why">Pourquoi ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how">Comment ?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01-getting-started.html">Démarrer avec Objective PHP</a><ul>
@@ -124,26 +124,28 @@
   <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="section" id="what">
-<h2>What?<a class="headerlink" href="#what" title="Lien permanent vers ce titre">¶</a></h2>
+<h2>Quoi ?<a class="headerlink" href="#what" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Objective PHP is a lightweight framework written in PHP7 with OOP in mind. This is why it&#8217;s called that - there is other reason, except a pun on Objective C of course :)</p>
-<p>Is Objective PHP a fullstack framework? Is it a micro-framework? Actually, neither. We use to call it a mini-framework, meaning that it&#8217;s somewhere in between: it provides the developers with much more than a micro-framework does, but also less than a fullstack.</p>
-<p>Objective PHP aims at handling applicative workflows, then let the developer do their work. No more, no less.</p>
-<p>For higher level components, like Forms generators or ORMs for instance, we thought that it would be more efficient to let developers bring their usual tools in Objective rather than forcing them to use our own alternatives.</p>
+<p>Est-ce qu&#8217;Objective PHP est un framework fullstack ? S&#8217;agit-il d&#8217;un micro-framework ? En fait, ni l&#8217;un ni l&#8217;autre. Nous avons pris l&#8217;habitude de le qualifier de mini-framework, pour souligner le fait qu&#8217;il se situe quelque part entre les deux premiers : il fournit nettement plus qu&#8217;un micro-framework, sans aller aussi un loin qu&#8217;un fullstack.</p>
+<p>Objective PHP a pour rôle de gérer les workflows applicatifs, et de laisser les développeurs faire leur travail. Ni plus, ni moins.</p>
+<p>Concernant les composants de haut niveau, comme les générateurs de formulaires  ou les ORM par exemple, nous pensons qu&#8217;il est plus efficace de laisser les  développeurs embarqués leurs outils habituels dans Objective PHP plutôt que de les forcer à utiliser nos propres implémentations.</p>
 </div>
 <div class="section" id="why">
-<h2>Why?<a class="headerlink" href="#why" title="Lien permanent vers ce titre">¶</a></h2>
-<p>You may ask yourself: why did those guys bothered with another PHP framework? The answer is quite simple: we&#8217;re bored with spending more times understanding and masterizing the framework itself than with working on the actual applications features.</p>
-<p><strong>productivity</strong> is the main target of Objective PHP</p>
-<p>On top of that, we thought taht working on a new framework would also be an opportunity to consider performances in a different way. Most frameworks rely on cache to offer decent performances. Well, cache can help. A bit. But once you cached the poor performing components, what more can you do? Nothing.</p>
-<p><strong>performance</strong> is the second major concern of Objective PHP</p>
+<h2>Pourquoi ?<a class="headerlink" href="#why" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Vous vous demandez peut-être : pourquoi est-ce que ces gens se compliquent la vie à créer encore un autre framework PHP ? La réponse est assez simple : nous ne voulons plus passer plus de temps à comprendre et maîtriser le framework qu&#8217;à implémenter les véritables fonctionnalités des applications.</p>
+<p><strong>la productivité</strong> est le but principal d&#8217;Objective PHP</p>
+<p>En outre, nous avons pensé que travailler sur un nouveau framework serait l&#8217;occasion d&#8217;envisager la question des performances sous un angle différent. La plupart des frameworks utilisent du cache pour atteindre des performances acceptables. Slit, le cache peut aider. Un peu. Mais une que vous avez mis en cache vos composants peu performants, que pouvez-vous faire de plus ? Rien.</p>
+<p><strong>les performances</strong> sont la deuxième préoccupation majeure d&#8217;Objeective PHP</p>
 </div>
 <div class="section" id="how">
-<h2>How?<a class="headerlink" href="#how" title="Lien permanent vers ce titre">¶</a></h2>
-<p>The key idea to help developers getting efficient and comfortable with Objective PHP is to reduce as much as possible the number of different mechanism to achieve essential tasks the framework has to handle.</p>
-<p>After many tries, we came down to a combination of two central concepts:</p>
+<h2>Comment ?<a class="headerlink" href="#how" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L&#8217;idée clé pour aider les développeurs à être à l&#8217;aise et efficaces aavec Objective PHP est de réduire au minimum le nombre de mécanismes différents nécessaires pour réaliser les tâches que le framework doit prendre en charge.</p>
+<p>Après de nombreux essais, nous en sommes arrivés à la combinaison des deux concepts centraux suivants :</p>
 <ul class="simple">
-<li><em>Middlewares</em> to set up a workflow</li>
-<li><em>Events</em> to ease the connexion between the application components</li>
+<li><p class="first"><em>des Middlewares</em> pour définir le Workflow</p>
+</li>
+<li><p class="first"><em>des événements</em> pour faciliter la communication entre les composants de l&#8217;application</p>
+</li>
 </ul>
 </div>
 </div>

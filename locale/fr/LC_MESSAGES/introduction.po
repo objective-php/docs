@@ -17,14 +17,7 @@ msgstr ""
 
 #: ../../introduction.rst:14
 msgid "What?"
-msgstr ""
-
-#: ../../introduction.rst:16
-msgid ""
-"Objective PHP is a lightweight framework written in PHP7 with OOP in mind. "
-"This is why it's called that - there is other reason, except a pun on "
-"Objective C of course :)"
-msgstr ""
+msgstr "Quoi ?"
 
 #: ../../introduction.rst:18
 msgid ""
@@ -33,12 +26,19 @@ msgid ""
 "between: it provides the developers with much more than a micro-framework "
 "does, but also less than a fullstack."
 msgstr ""
+"Est-ce qu'Objective PHP est un framework fullstack ? S'agit-il d'un micro-"
+"framework ? En fait, ni l'un ni l'autre. Nous avons pris l'habitude de le "
+"qualifier de mini-framework, pour souligner le fait qu'il se situe quelque "
+"part entre les deux premiers : il fournit nettement plus qu'un micro-"
+"framework, sans aller aussi un loin qu'un fullstack. "
 
 #: ../../introduction.rst:20
 msgid ""
 "Objective PHP aims at handling applicative workflows, then let the developer"
 " do their work. No more, no less."
 msgstr ""
+"Objective PHP a pour rôle de gérer les workflows applicatifs, et de laisser "
+"les développeurs faire leur travail. Ni plus, ni moins. "
 
 #: ../../introduction.rst:22
 msgid ""
@@ -46,10 +46,14 @@ msgid ""
 "thought that it would be more efficient to let developers bring their usual "
 "tools in Objective rather than forcing them to use our own alternatives."
 msgstr ""
+"Concernant les composants de haut niveau, comme les générateurs de "
+"formulaires  ou les ORM par exemple, nous pensons qu'il est plus efficace de"
+" laisser les  développeurs embarqués leurs outils habituels dans Objective "
+"PHP plutôt que de les forcer à utiliser nos propres implémentations. "
 
 #: ../../introduction.rst:26
 msgid "Why?"
-msgstr ""
+msgstr "Pourquoi ?"
 
 #: ../../introduction.rst:28
 msgid ""
@@ -58,27 +62,38 @@ msgid ""
 "understanding and masterizing the framework itself than with working on the "
 "actual applications features."
 msgstr ""
+"Vous vous demandez peut-être : pourquoi est-ce que ces gens se compliquent "
+"la vie à créer encore un autre framework PHP ? La réponse est assez simple :"
+" nous ne voulons plus passer plus de temps à comprendre et maîtriser le "
+"framework qu'à implémenter les véritables fonctionnalités des applications."
 
 #: ../../introduction.rst:30
 msgid "**productivity** is the main target of Objective PHP"
-msgstr ""
+msgstr "**la productivité** est le but principal d'Objective PHP"
 
 #: ../../introduction.rst:32
 msgid ""
-"On top of that, we thought taht working on a new framework would also be an "
+"On top of that, we thought that working on a new framework would also be an "
 "opportunity to consider performances in a different way. Most frameworks "
 "rely on cache to offer decent performances. Well, cache can help. A bit. But"
 " once you cached the poor performing components, what more can you do? "
 "Nothing."
 msgstr ""
+"En outre, nous avons pensé que travailler sur un nouveau framework serait "
+"l'occasion d'envisager la question des performances sous un angle différent."
+" La plupart des frameworks utilisent du cache pour atteindre des "
+"performances acceptables. Slit, le cache peut aider. Un peu. Mais une que "
+"vous avez mis en cache vos composants peu performants, que pouvez-vous faire"
+" de plus ? Rien."
 
 #: ../../introduction.rst:34
 msgid "**performance** is the second major concern of Objective PHP"
 msgstr ""
+"**les performances** sont la deuxième préoccupation majeure d'Objeective PHP"
 
 #: ../../introduction.rst:38
 msgid "How?"
-msgstr ""
+msgstr "Comment ?"
 
 #: ../../introduction.rst:40
 msgid ""
@@ -86,16 +101,40 @@ msgid ""
 "Objective PHP is to reduce as much as possible the number of different "
 "mechanism to achieve essential tasks the framework has to handle."
 msgstr ""
+"L'idée clé pour aider les développeurs à être à l'aise et efficaces aavec "
+"Objective PHP est de réduire au minimum le nombre de mécanismes différents "
+"nécessaires pour réaliser les tâches que le framework doit prendre en "
+"charge."
 
 #: ../../introduction.rst:42
 msgid ""
 "After many tries, we came down to a combination of two central concepts:"
 msgstr ""
+"Après de nombreux essais, nous en sommes arrivés à la combinaison des deux "
+"concepts centraux suivants :"
 
 #: ../../introduction.rst:44
 msgid "*Middlewares* to set up a workflow"
-msgstr ""
+msgstr "*des Middlewares* pour définir le Workflow"
 
 #: ../../introduction.rst:45
 msgid "*Events* to ease the connexion between the application components"
 msgstr ""
+"*des événements* pour faciliter la communication entre les composants de "
+"l'application"
+
+#: ../../introduction.rst:16
+msgid ""
+"Objective PHP is a lightweight framework written in PHP7 with OOP in mind. "
+"This is why it's called that - there is other reason, except a pun on "
+"Objective C of course :)"
+msgstr ""
+
+#~ msgid ""
+#~ "Objective PHP is a lightweight framework written in PHP7 with OOP in mind. "
+#~ "This is why it's called that - there is no other reason, except a pun on "
+#~ "Objective C of course :)"
+#~ msgstr ""
+#~ "Objective PHP est un framework écrit en PHP7 et utilisant de nombreux "
+#~ "objets. D'où son nom - il n'y pas d'autres origine à ce nom, à part un clin "
+#~ "d'oeil à Objective C bien sûr :)"
