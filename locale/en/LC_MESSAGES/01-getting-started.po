@@ -47,12 +47,6 @@ msgid ""
 "\"create-project\" feature and get the Objective PHP Starter Kit:"
 msgstr ""
 
-#: ../../01-getting-started.rst:26
-msgid ""
-"The following command assumes :code:composer is available in your current "
-"PATH:"
-msgstr ""
-
 #: ../../01-getting-started.rst:32
 msgid ""
 "Where *op-quick-start* should be replaced with anything matching your actual"
@@ -74,6 +68,16 @@ msgid ""
 "That's it! If everything went fine, you should be able to point a browser to"
 " http://localhost:8080 and access the starter kit home page."
 msgstr ""
+
+#: ../../01-getting-started.rst:26
+msgid ""
+"The following command assumes composer is available in your current PATH:"
+msgstr ""
+
+#~ msgid ""
+#~ "The following command assumes :code:composer is available in your current "
+#~ "PATH:"
+#~ msgstr ""
 
 #~ msgid "Usage::"
 #~ msgstr ""

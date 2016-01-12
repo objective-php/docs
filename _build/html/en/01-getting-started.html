@@ -31,6 +31,7 @@
 
   
     <link rel="top" title="Objective PHP Documentation 1 documentation" href="index.html"/>
+        <link rel="next" title="Setting up the application" href="02-setting-up.html"/>
         <link rel="prev" title="Introduction" href="introduction.html"/> 
 
   
@@ -83,6 +84,39 @@
 <li class="toctree-l2"><a class="reference internal" href="#starting-a-server">Starting a server</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="02-setting-up.html">Setting up the application</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="02-setting-up.html#autoloading">Autoloading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-setting-up.html#the-application-class">The Application class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-setting-up.html#defining-a-workflow">Defining a workflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="02-setting-up.html#declaring-steps">Declaring Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02-setting-up.html#plugging-middlewares">Plugging Middlewares</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="02-setting-up.html#basic-usage">Basic usage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="02-setting-up.html#aliasing">Aliasing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="02-setting-up.html#execution-filters">Execution filters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03-configuration.html">Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="03-configuration.html#concept">Concept</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03-configuration.html#config-object">Config object</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03-configuration.html#directive-types">Directive types</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#single-value">Single Value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#stacked-value">Stacked Value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#single-value-group">Single Value Group</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="03-configuration.html#default-directives">Default directives</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#objectivephp-application-config">ObjectivePHP\Application\Config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#objectivephp-servicesfactory-config">ObjectivePHP\ServicesFactory\Config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#objectivephp-eloquentpackage-config">ObjectivePHP\EloquentPackage\Config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03-configuration.html#objectivephp-doctrinepackage-config">ObjectivePHP\DoctrinePackage\Config</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
           
@@ -130,7 +164,7 @@
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>The easiest way to start a project with Objective PHP is to use composer&#8217;s &#8220;create-project&#8221; feature and get the Objective PHP Starter Kit:</p>
-<p>The following command assumes :code:composer is available in your current PATH:</p>
+<p>The following command assumes composer is available in your current PATH:</p>
 <div class="highlight-php"><div class="highlight"><pre><span class="nx">composer</span> <span class="nx">create</span><span class="o">-</span><span class="nx">project</span> <span class="nx">objective</span><span class="o">-</span><span class="nx">php</span><span class="o">/</span><span class="nx">starter</span><span class="o">-</span><span class="nx">kit</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
 </pre></div>
 </div>
@@ -153,6 +187,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="02-setting-up.html" class="btn btn-neutral float-right" title="Setting up the application" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="introduction.html" class="btn btn-neutral" title="Introduction" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -63,15 +63,6 @@ msgstr ""
 msgid "**productivity** is the main target of Objective PHP"
 msgstr ""
 
-#: ../../introduction.rst:32
-msgid ""
-"On top of that, we thought taht working on a new framework would also be an "
-"opportunity to consider performances in a different way. Most frameworks "
-"rely on cache to offer decent performances. Well, cache can help. A bit. But"
-" once you cached the poor performing components, what more can you do? "
-"Nothing."
-msgstr ""
-
 #: ../../introduction.rst:34
 msgid "**performance** is the second major concern of Objective PHP"
 msgstr ""
@@ -99,3 +90,20 @@ msgstr ""
 #: ../../introduction.rst:45
 msgid "*Events* to ease the connexion between the application components"
 msgstr ""
+
+#: ../../introduction.rst:32
+msgid ""
+"On top of that, we thought that working on a new framework would also be an "
+"opportunity to consider performances in a different way. Most frameworks "
+"rely on cache to offer decent performances. Well, cache can help. A bit. But"
+" once you cached the poor performing components, what more can you do? "
+"Nothing."
+msgstr ""
+
+#~ msgid ""
+#~ "On top of that, we thought taht working on a new framework would also be an "
+#~ "opportunity to consider performances in a different way. Most frameworks "
+#~ "rely on cache to offer decent performances. Well, cache can help. A bit. But"
+#~ " once you cached the poor performing components, what more can you do? "
+#~ "Nothing."
+#~ msgstr ""

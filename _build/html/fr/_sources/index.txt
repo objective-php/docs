@@ -11,4 +11,6 @@ Contents:
 
    introduction
    01-getting-started
+   02-setting-up
+   03-configuration
 
