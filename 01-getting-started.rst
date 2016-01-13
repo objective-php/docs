@@ -27,10 +27,6 @@ The following command assumes composer is available in your current PATH:
 
 Where *op-quick-start* should be replaced with anything matching your actual project name.
 
-
-Keep adding methods like this for everything you want to document. It is recommended to only document public methods like this. Private and protected methods should stay isolated and only documented in the source code.
-
-
 Starting a server
 """""""""""""""""
 
@@ -42,3 +38,9 @@ To quickly run and access the starter application, you can use the internal PHP 
     php -S localhost:8080 -t public
 
 That's it! If everything went fine, you should be able to point a browser to http://localhost:8080 and access the starter kit home page.
+
+Repositories
+""""""""""""
+
+While the ``objective-php/starter-kit`` repository is the easiest way to get started with Objective PHP, all repositories can be
+accessed and fetched on the project `organization page <http://github.com/objective-php>`_.

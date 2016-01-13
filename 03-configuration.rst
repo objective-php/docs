@@ -50,7 +50,7 @@ imported twice or more, the latest imported overwrites the previous one by defau
 
 .. code-block:: php
 
-    class Stacked extends ObjectivePHP\Config\SingleValueDirective
+    class Single extends ObjectivePHP\Config\SingleValueDirective
     {
         const DIRECTIVE = 'stack';
     }
@@ -86,7 +86,7 @@ it's value **always** is an array, even if only one directive of that kind is im
     $config->import(new Stacked('x'));
     $config->get(Stacked::DIRECTIVE) == ["x"];
 
-    $config->import(new StackedDirective('y'));
+    $config->import(new Stacked('y'));
     $config->get(Stacked::DIRECTIVE) == ["x", "y"];
 
 
