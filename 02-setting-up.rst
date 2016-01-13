@@ -24,8 +24,7 @@ make your classes autoloadable, just add the appropriate directive in the compos
 Where ``App`` should match your application main namespace. Note that the Objective PHP composer.json file already contains
 such a directive, using ``Project`` as namespace. You're invited to update this setting to match your own standards.
 
-.. note:: Any change to the ``autoload`` section of ``composer.json`` needs the command :command:`composer dumpautoload` to be
-executed to make changes available to the project.
+.. note:: Any change to the ``autoload`` section of ``composer.json`` needs the command :command:`composer dumpautoload` to be executed to make changes available to the project.
 
 The Application class
 """""""""""""""""""""
