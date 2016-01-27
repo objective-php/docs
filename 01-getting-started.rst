@@ -23,7 +23,7 @@ The following command assumes composer is available in your current PATH:
 
 :: 
 
-    composer create-project objective-php/starter-kit op-quick-start
+    composer -s dev create-project objective-php/starter-kit op-quick-start
 
 Where *op-quick-start* should be replaced with anything matching your actual project name.
 
