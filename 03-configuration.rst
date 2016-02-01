@@ -36,7 +36,7 @@ Once imported, the DirectiveInterface object is not kept as is. It is used by th
 The configuration directive value can then be fetched using the ``Config::get($key, $default = null)`` method, as one would do on
 any ``Collection``.
 
-.. note:: Directive key (or prefix when working with group) are stored as constant in the Directive classes, so that it is not needed to remember all keys, and prevent from making typos when referring a given directive in the Config object.
+.. note:: Directive key (or prefix when working with group) are equals to the classes name, so that it is not needed to remember keys, and prevent from making typos when referring a given directive in the Config object.
 
 
 Directive types
@@ -52,12 +52,12 @@ imported twice or more, the latest imported overwrites the previous one by defau
 
     class Single extends ObjectivePHP\Config\SingleValueDirective
     {
-        const DIRECTIVE = 'stack';
+        // default mechanism inherited from abstract is enough
     }
 
     $config->import(new Single('x'))
            ->import(new Single('y'));
-    $config->get(Single::DIRECTIVE) == "y";
+    $config->get(Single::class) == "y";
 
 This behaviour can be altered by changing the DirectiveMerge policy:
 
@@ -66,7 +66,7 @@ This behaviour can be altered by changing the DirectiveMerge policy:
     $config->import(new Single('x'))
            ->setMergePolicy(MergePolicy::COMBINE)
            ->import(new Single('y'));
-    $config->get(Single::DIRECTIVE) == ["x", "y"];
+    $config->get(Single::class) == ["x", "y"];
 
 
 
@@ -80,14 +80,14 @@ it's value **always** is an array, even if only one directive of that kind is im
 
     class Stacked extends ObjectivePHP\Config\StackedValueDirective
     {
-        const DIRECTIVE = 'stack';
+        // default mechanism inherited from abstract is enough
     }
 
     $config->import(new Stacked('x'));
-    $config->get(Stacked::DIRECTIVE) == ["x"];
+    $config->get(Stacked::class) == ["x"];
 
     $config->import(new Stacked('y'));
-    $config->get(Stacked::DIRECTIVE) == ["x", "y"];
+    $config->get(Stacked::class) == ["x", "y"];
 
 
 Single Value Group
@@ -101,16 +101,16 @@ prefix:
 
     class Grouped extends ObjectivePHP\Config\SingleValueDirectiveGroup
     {
-        const PREFIX = 'group';
+        
     }
 
     $config->import(new Grouped('first', 'first value');
     $config->import(new Grouped('second', 'second value');
 
-    $config->get(Grouped::PREFIX . '.first') == 'first value';
+    $config->get(Grouped::class . '.first') == 'first value';
 
     // all grouped directives can be fetched as new Config object using subset()
-    $config->subset(Grouped::PREFIX)->toArray() == ['first' => 'first value', 'second' => 'second value'];
+    $config->subset(Grouped::class)->toArray() == ['first' => 'first value', 'second' => 'second value'];
 
 .. note:: While fetching syntax might not be as intuitive as one could expect, remember that the idea behind all this is that application developers should only deal with directives instantiation, since configuration directives are exepexted to be used by the framework itself and components. All other, arbitrary, application (especially business) parameters should be handled using Application::setParam() and Application::getParam(), not Config.
 
