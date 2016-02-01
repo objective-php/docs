@@ -74,7 +74,7 @@ Stacked Value
 ^^^^^^^^^^^^^
 
 A StackedValueDirective is pretty close to the SingleValue used with the COMBINE merge policy, but with a major difference:
-it's value **always** is an array, even if only one directive of that kind is imported into the Config object:
+its value is **always** an array, even if only one directive of that kind is imported into the Config object:
 
 .. code-block:: php
 
@@ -101,7 +101,7 @@ prefix:
 
     class Grouped extends ObjectivePHP\Config\SingleValueDirectiveGroup
     {
-        
+
     }
 
     $config->import(new Grouped('first', 'first value');

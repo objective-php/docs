@@ -42,7 +42,7 @@ Barely all logic in the Application class lays in the ``Application::init()`` me
 Defining a workflow
 """""""""""""""""""
 
-It is very important to understand that Objective PHP, as a framework, doesn't provide the application with an hardocded
+It is very important to understand that Objective PHP, as a framework, doesn't provide the application with an hardcoded
 workflow, but with every components and mechanisms that are needed to create a workflow.
 
 .. note:: While Objective PHP, as a framework, doesn't provide a workflow, the Objective PHP Starter Kit does!
