@@ -30,7 +30,14 @@ Where *op-quick-start* should be replaced with anything matching your actual pro
 Starting a server
 """""""""""""""""
 
-To quickly run and access the starter application, you can use the internal PHP HTTP server:
+To quickly run and access the starter application, you can use the internal PHP HTTP server. The easiest way for that being launching the provided serve.sh script:
+
+::
+   
+   cd op-quick-start
+   ./server.sh [-p PORT=8080]
+
+Or you can launch it manually:
 
 ::
     
