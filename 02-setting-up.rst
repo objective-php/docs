@@ -29,7 +29,7 @@ such a directive, using ``Project`` as namespace. You're invited to update this 
 The Application class
 """""""""""""""""""""
 
-The first class you have to create is the Application class. It should extend ``ObjectivePHP\Application\ApplicationInterface``,
+The first class you have to create is the Application class. It should extend ``ObjectivePHP\Application\AbstractApplication``,
 and be placed in your main namespace.
 
 Application instance will the most important object in your application, since it will allow to link all components by
