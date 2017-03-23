@@ -13,4 +13,5 @@ Contents:
    01-getting-started
    02-setting-up
    03-configuration
+   04-cli-commands
 

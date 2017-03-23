@@ -118,6 +118,30 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="04-cli-commands.html">CLI commands</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="04-cli-commands.html#concept">Concept</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04-cli-commands.html#quick-start">Quick start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="04-cli-commands.html#create-a-cli-action">Create a cli action</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04-cli-commands.html#setup-cli-commands-routing">Setup cli commands routing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04-cli-commands.html#listing-available-commands">Listing available commands</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="04-cli-commands.html#parameters">Parameters</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="04-cli-commands.html#common-features">Common features</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="04-cli-commands.html#naming">Naming</a></li>
+<li class="toctree-l4"><a class="reference internal" href="04-cli-commands.html#options">Options</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="04-cli-commands.html#available-parameters">Available parameters</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="04-cli-commands.html#toggle">Toggle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="04-cli-commands.html#param">Param</a></li>
+<li class="toctree-l4"><a class="reference internal" href="04-cli-commands.html#argument">Argument</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
           
@@ -166,14 +190,19 @@
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>The easiest way to start a project with Objective PHP is to use composer&#8217;s &#8220;create-project&#8221; feature and get the Objective PHP Starter Kit:</p>
 <p>The following command assumes composer is available in your current PATH:</p>
-<div class="highlight-php"><div class="highlight"><pre><span class="nx">composer</span> <span class="nx">create</span><span class="o">-</span><span class="nx">project</span> <span class="nx">objective</span><span class="o">-</span><span class="nx">php</span><span class="o">/</span><span class="nx">starter</span><span class="o">-</span><span class="nx">kit</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
+<div class="highlight-php"><div class="highlight"><pre><span class="nx">composer</span> <span class="nx">create</span><span class="o">-</span><span class="nx">project</span> <span class="o">-</span><span class="nx">s</span> <span class="nx">dev</span> <span class="nx">objective</span><span class="o">-</span><span class="nx">php</span><span class="o">/</span><span class="nx">starter</span><span class="o">-</span><span class="nx">kit</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
 </pre></div>
 </div>
 <p>Where <em>op-quick-start</em> should be replaced with anything matching your actual project name.</p>
 </div>
 <div class="section" id="starting-a-server">
 <h2>Starting a server<a class="headerlink" href="#starting-a-server" title="Permalink to this headline">¶</a></h2>
-<p>To quickly run and access the starter application, you can use the internal PHP HTTP server:</p>
+<p>To quickly run and access the starter application, you can use the internal PHP HTTP server. The easiest way for that being launching the provided serve.sh script:</p>
+<div class="highlight-php"><div class="highlight"><pre><span class="nx">cd</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
+<span class="o">./</span><span class="nx">server</span><span class="o">.</span><span class="nx">sh</span> <span class="p">[</span><span class="o">-</span><span class="nx">p</span> <span class="nx">PORT</span><span class="o">=</span><span class="mi">8080</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Or you can launch it manually:</p>
 <div class="highlight-php"><div class="highlight"><pre><span class="nx">cd</span> <span class="nx">op</span><span class="o">-</span><span class="nx">quick</span><span class="o">-</span><span class="nx">start</span>
 <span class="nx">php</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">localhost</span><span class="o">:</span><span class="mi">8080</span> <span class="o">-</span><span class="nx">t</span> <span class="k">public</span>
 </pre></div>

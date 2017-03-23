@@ -2,9 +2,9 @@
    Added: <date>
    Author: Name <email>
 
-=======================================
+==========================
 Setting up the application
-=======================================
+==========================
 
 
 Autoloading
@@ -50,7 +50,7 @@ workflow, but with every components and mechanisms that are needed to create a w
 Declaring Steps
 ===============
 
-The workflow in Objective PHP is defined by first declaring ``Steps``, then plugging ``Middlewares`` to each steps. Since
+The workflow in Objective PHP is defined by first declaring ``Steps``, then plugging ``Middlewares`` to each step. Since
 several middlewares can be plugged into each step, middlewares are stacked, and will be run one after the other, in the
 same order they were plugged.
 
